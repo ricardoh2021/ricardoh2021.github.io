@@ -1,17 +1,27 @@
-.profile-pic {
-  border-radius: 50%;
-}
-
-#hero {
-  height: 100vh;
-}
-
+/* General Styles */
 body {
   background-color: #f2f2f2 !important;
 }
 
-nav a {
-  color: #2e4a7d !important;
+/* Color Styling */
+.text-primary {
+  color: #2e4a7d;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #7d612e !important;
+  border-color: #7d612e !important;
+}
+
+.btn:hover {
+  background-color: #a68c51 !important;
+  border-color: #a68c51 !important;
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
 }
 
 #hero h1,
@@ -23,12 +33,12 @@ footer {
   color: #2e4a7d;
 }
 
-.btn {
-  background-color: #7d612e !important;
-  border-color: #7d612e !important ;
+/* Navigation Links */
+nav a {
+  color: #2e4a7d !important;
 }
 
-.btn:hover {
-  background-color: #a68c51 !important;
-  border-color: #a68c51 !important;
+/* Profile Picture */
+.profile-pic {
+  border-radius: 50%;
 }
