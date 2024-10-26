@@ -5,45 +5,30 @@
 #hero {
   height: 100vh;
 }
-.background {
-  background: linear-gradient(270deg, #68cdda, #f4faf8);
-  background-size: 400% 400%;
 
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
+body {
+  background-color: #f2f2f2 !important;
 }
 
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+nav a {
+  color: #2e4a7d !important;
 }
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+
+#hero h1,
+#hero p,
+#about,
+#contact,
+#projects h2,
+footer {
+  color: #2e4a7d;
 }
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+
+.btn {
+  background-color: #7d612e !important;
+  border-color: #7d612e !important ;
+}
+
+.btn:hover {
+  background-color: #a68c51 !important;
+  border-color: #a68c51 !important;
 }
