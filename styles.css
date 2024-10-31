@@ -25,17 +25,11 @@ body {
 }
 
 #hero h1,
-#hero p,
-#about,
-#contact,
+#about h1,
+#contact h1,
 #projects h2,
 footer {
   color: #2e4a7d;
-}
-
-/* Navigation Links */
-nav a {
-  color: #2e4a7d !important;
 }
 
 /* Profile Picture */
